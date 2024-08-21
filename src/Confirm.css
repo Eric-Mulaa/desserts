@@ -1,0 +1,108 @@
+
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.confirm-card-container{
+    height: 450px;
+}
+
+.confirm-card{
+    background-color: white;
+    margin: 50px auto;
+    border: none;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 300px;
+    padding: 20px;
+}
+
+.tick-icon{
+    color: green;
+    font-size: 30px;
+}
+
+.confirm-header{
+    margin: 0px;
+}
+
+.confirm-description{
+    margin-top: 0px;
+    color:rgb(186, 185, 185);
+}
+
+.confirm-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 236, 223);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.confirm-item{
+    display: flex;
+    align-items: center;
+}
+
+.item-thumbnail{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.item-name{
+    margin: 0px;
+}
+
+.item-count{
+    margin-right: 10px;
+    color: red;
+}
+
+.item-price{
+    color: rgb(167, 167, 167);
+}
+
+.item-ordered-price{
+    color: black;
+    font-weight: 600;
+}
+
+.total-item-ordered{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 236, 223);
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.total-item-description{
+    color: rgb(167, 167, 167);
+}
+
+.total-item-order-price{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.new-order-button{
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    padding: 20px;
+    border: none;
+    margin: 20px auto;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}

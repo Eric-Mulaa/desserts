@@ -1,0 +1,21 @@
+.app-container{
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+}
+
+@media (max-width: 600px) {
+    .app-container {
+      flex-basis: 100%; /* Stacks items in one column on smaller screens */
+      flex-wrap: wrap;
+    }
+    .cart-component{
+        position: fixed;
+        bottom: 0;
+    }
+  }
+
+
+.cart-component{
+    width: 650px;
+}

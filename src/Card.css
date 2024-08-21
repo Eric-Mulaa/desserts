@@ -1,0 +1,56 @@
+.container{
+    margin: 30px 30px 0px 30px;
+    width: 100%;
+}
+
+.heading{
+    margin: 0px;
+    padding: 10px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.images{
+    width: 150px;
+    padding-left: 10px;
+    flex-basis: calc(100% / 4); 
+}
+
+.image{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .images {
+        flex-basis: 100%; /* Stacks items in one column on smaller screens */
+    }
+  }
+
+.images p{
+    margin: 0px;
+}
+
+.category{
+    color: grey;
+}
+
+.name{
+    font-weight: 300;
+}
+
+.price{
+    color: red;
+}
+
+
