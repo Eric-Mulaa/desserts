@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
 import './Open.css'
 

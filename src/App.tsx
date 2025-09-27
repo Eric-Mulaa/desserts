@@ -3,7 +3,7 @@ import './App.css'
 import Data from './data.json';
 import Card from './Card'
 import Default from './Buttons/Default'
-import Open from './Buttons/Open.'
+import Open from './Buttons/Open'
 import Cart from './Cart.'
 import Confirm from './Confirm'
 
